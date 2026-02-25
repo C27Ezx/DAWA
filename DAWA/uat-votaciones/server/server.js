@@ -66,13 +66,13 @@ db.serialize(() => {
         ['admin', 'Administrador Sistema', hashAdmin, 'admin', 'Direccion General']);
       
       db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
-        ['20240001', 'Maria Garcia Lopez', hashAlumno1, 'alumno', 'Facultad de Ingenieria']);
+        ['a2223010021', 'Maria Garcia Lopez', hashAlumno1, 'alumno', 'Facultad de Ingenieria']);
       
       db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
-        ['20240002', 'Carlos Rodriguez Martinez', hashAlumno2, 'alumno', 'Facultad de Derecho']);
+        ['a2223010022', 'Carlos Rodriguez Martinez', hashAlumno2, 'alumno', 'Facultad de Derecho']);
       
       db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
-        ['20240003', 'Ana Perez Hernandez', hashAlumno3, 'alumno', 'Facultad de Medicina']);
+        ['a2223010023', 'Ana Perez Hernandez', hashAlumno3, 'alumno', 'Facultad de Medicina']);
 
       db.run(`INSERT INTO candidatos (nombre, partido, foto, descripcion) VALUES (?, ?, ?, ?)`,
         ['Juan Alberto Sanchez', 'Partido Estudiantil UAT', '/candidato1.jpg', 

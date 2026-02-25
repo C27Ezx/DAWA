@@ -45,9 +45,9 @@ cd client && npm run dev
 | Matrícula | Contraseña | Rol |
 |-----------|------------|-----|
 | admin | admin123 | Administrador |
-| 20240001 | alumno123 | Alumno |
-| 20240002 | alumno123 | Alumno |
-| 20240003 | alumno123 | Alumno |
+| a2223010021 | alumno123 | Alumno |
+| a2223010022 | alumno123 | Alumno |
+| a2223010023 | alumno123 | Alumno |
 
 ## Funcionalidades
 

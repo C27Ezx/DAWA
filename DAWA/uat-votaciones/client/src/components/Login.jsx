@@ -95,7 +95,7 @@ function Login({ onLogin }) {
           </p>
           <div className="mt-2 text-xs text-gray-500 space-y-1">
             <p><strong>Admin:</strong> admin / admin123</p>
-            <p><strong>Alumno:</strong> 20240001 / alumno123</p>
+            <p><strong>Alumno:</strong> a2223010021 / alumno123</p>
           </div>
         </div>
       </div>
