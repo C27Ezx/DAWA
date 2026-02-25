@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --uat-orange: #d14900;
+  --uat-orange-light: #F05A28;
+  --uat-blue: #002F6C;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+}
+
+.btn-uat-primary {
+  @apply px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 hover:opacity-90;
+  background: linear-gradient(135deg, var(--uat-orange), var(--uat-orange-light));
+}
+
+.btn-uat-secondary {
+  @apply px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 hover:opacity-90;
+  background-color: var(--uat-blue);
+}
+
+.card-uat {
+  @apply bg-white rounded-xl shadow-lg p-6 border-t-4;
+  border-top-color: var(--uat-orange);
+}

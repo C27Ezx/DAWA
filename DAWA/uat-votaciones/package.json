@@ -1,0 +1,15 @@
+{
+  "name": "uat-votaciones",
+  "version": "1.0.0",
+  "description": "Sistema de Votaciones Universidad Autónoma de Tamaulipas",
+  "private": true,
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "docs": "cd server && node generar_documentacion.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
