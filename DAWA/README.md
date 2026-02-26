@@ -42,12 +42,13 @@ cd client && npm run dev
 
 ## Usuarios de Prueba
 
-| Matrícula | Contraseña | Rol |
-|-----------|------------|-----|
-| admin | admin123 | Administrador |
-| a2223010021 | alumno123 | Alumno |
-| a2223010022 | alumno123 | Alumno |
-| a2223010023 | alumno123 | Alumno |
+| Matrícula | Nombre | Contraseña | Rol |
+|-----------|--------|------------|-----|
+| admin | Administrador | admin123 | Administrador |
+| a2161150443 | Víctor Emmanuel Caballero Urbina | alumno123 | Alumno (FIC) |
+| a2223010012 | David Esquivel Cruz | alumno123 | Alumno (FIC) |
+| a2223010013 | Alan Eliezer Esquivel Espinoza | alumno123 | Alumno (FIC) |
+| a2223010021 | Hinojosa Castillo José Luis | alumno123 | Alumno (FIC) |
 
 ## Funcionalidades
 

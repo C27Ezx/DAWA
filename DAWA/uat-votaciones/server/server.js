@@ -59,20 +59,29 @@ db.serialize(() => {
       const saltAlumno2 = bcrypt.genSaltSync(10);
       const hashAlumno2 = bcrypt.hashSync('alumno123', saltAlumno2);
       
+      const saltAlumno2 = bcrypt.genSaltSync(10);
+      const hashAlumno2 = bcrypt.hashSync('alumno123', saltAlumno2);
+      
       const saltAlumno3 = bcrypt.genSaltSync(10);
       const hashAlumno3 = bcrypt.hashSync('alumno123', saltAlumno3);
+      
+      const saltAlumno4 = bcrypt.genSaltSync(10);
+      const hashAlumno4 = bcrypt.hashSync('alumno123', saltAlumno4);
 
       db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
         ['admin', 'Administrador Sistema', hashAdmin, 'admin', 'Direccion General']);
       
       db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
-        ['a2223010021', 'Maria Garcia Lopez', hashAlumno1, 'alumno', 'Facultad de Ingenieria']);
+        ['a2161150443', 'Victor Emmanuel Caballero Urbina', hashAlumno1, 'alumno', 'Facultad de Ingenieria y Ciencias']);
       
       db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
-        ['a2223010022', 'Carlos Rodriguez Martinez', hashAlumno2, 'alumno', 'Facultad de Derecho']);
+        ['a2223010012', 'David Esquivel Cruz', hashAlumno2, 'alumno', 'Facultad de Ingenieria y Ciencias']);
       
       db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
-        ['a2223010023', 'Ana Perez Hernandez', hashAlumno3, 'alumno', 'Facultad de Medicina']);
+        ['a2223010013', 'Alan Eliezer Esquivel Espinoza', hashAlumno3, 'alumno', 'Facultad de Ingenieria y Ciencias']);
+      
+      db.run(`INSERT INTO usuarios (matricula, nombre, password, rol, facultad) VALUES (?, ?, ?, ?, ?)`,
+        ['a2223010021', 'Hinojosa Castillo Jose Luis', hashAlumno4, 'alumno', 'Facultad de Ingenieria y Ciencias']);
 
       db.run(`INSERT INTO candidatos (nombre, partido, foto, descripcion) VALUES (?, ?, ?, ?)`,
         ['Juan Alberto Sanchez', 'Partido Estudiantil UAT', '/candidato1.jpg', 

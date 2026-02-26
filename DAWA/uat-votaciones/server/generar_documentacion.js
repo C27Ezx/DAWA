@@ -298,7 +298,7 @@ async function generarDocumentacion() {
             ]}),
             new TableRow({ children: [
               new TableCell({ children: [new Paragraph("Precondiciones")] }),
-              new TableCell({ children: [new Paragraph("Usuario autenticado con matricula '20240001', estado ha_votado=false")] }),
+              new TableCell({ children: [new Paragraph("Usuario autenticado con matricula 'a2223010021', estado ha_votado=false")] }),
             ]}),
             new TableRow({ children: [
               new TableCell({ children: [new Paragraph("Pasos")] }),
